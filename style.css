@@ -1,0 +1,39 @@
+@font-face { /* Définition d'une nouvelle police nommée
+LearningCurveProRegular */
+	font-family: 'LearningCurveProRegular';
+	src: url('LearningCurve_OT-webfont.eot');
+	src: url('LearningCurve_OT-webfont.eot?#iefix')
+format('embedded-opentype'),
+	url('LearningCurve_OT-webfont.woff') format('woff'),
+	url('LearningCurve_OT-webfont.ttf') format('truetype'),
+	url('LearningCurve_OT-webfont.svg#LearningCurveProRegular')
+format('svg');
+}
+
+
+h1
+{
+	text-align: center;
+	font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+p
+{
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-bottom: 3px #aba9ab outset;
+	border-right: 3px #aba9ab outset;
+	border-left: 1px #aba9ab outset;
+	border-top: 1px #aba9ab outset;
+	padding: 6px;
+	margin-left: 180px;
+	margin-right: 190px;
+	border-radius: 15px / 6px;
+	box-shadow: 6px 6px 20px black;
+	text-shadow: 4px 4px 2px black;
+}
+
+.gras
+{
+	font-weight: bold;
+}
